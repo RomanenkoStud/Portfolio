@@ -75,7 +75,7 @@ margin-bottom: 0;
 .live-preview-iframe-wrapper {
     position: relative;
     padding-bottom: 56.25%;
-    height: 0;
+    height: 80vh;
 }
 
 .live-preview-iframe-wrapper iframe {
