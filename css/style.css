@@ -168,6 +168,51 @@ body {
 	}
 }
 
+/* Experience section */
+.experience {
+	padding: 100px 0;
+}
+
+.experience-item {
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	transition: all 0.3s ease;
+}
+
+.experience-item h3 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 0;
+}
+
+.experience-item h1 {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.experience-item p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.experience-item-image {
+	max-height: 60vh;
+	overflow: hidden;
+}
+
+.experience-item img {
+	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+.experience-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Tech stack Styles */
 .tech-stack {
 	background-color: #f8f9fa;
@@ -188,10 +233,16 @@ body {
 .tech-item {
 	background-color: #fff;
 	border-radius: 10px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	transition: all 0.3s ease;
 	margin-bottom: 30px;
 	padding: 50px 30px;
 	text-align: center;
+}
+
+.tech-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tech-item i {
@@ -205,6 +256,16 @@ body {
 	font-weight: 700;
 	margin-bottom: 0;
 	text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+	.tech-item {
+		padding: 30px 15px;
+	}
+	
+	.tech-item h4 {
+		font-size: 16px;
+	}
 }
 
 /* Portfolio Styles */
