@@ -11,6 +11,22 @@ body {
 	background-color: #f8f8f8;
 }
 
+.logo-image {
+    background-image: url('../logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+}
+
 /* Navigation Styles */
 .navbar {
 	background-color: #ffffff;
@@ -29,6 +45,23 @@ body {
 
 .nav-link:hover {
 	color: #2979FF;
+}
+
+/* Preloader Styles */
+.preloader {
+	position: fixed;
+	z-index: 9999;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.spinner-border {
+	width: 3rem;
+	height: 3rem;
 }
 
 /* Header Styles */
@@ -51,8 +84,8 @@ body {
 
 .site-heading {
 	position: relative;
-	margin-top: 50px;
-	padding-top: 200px;
+	margin-top: 10vh;
+	padding-top: 20vh;
 	text-align: center;
 	color: #ffffff;
 	z-index: 2;
