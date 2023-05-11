@@ -208,7 +208,6 @@ body {
 
 .experience-item {
 	padding: 30px;
-	background-color: #fff;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 	transition: all 0.3s ease;
 }
@@ -264,6 +263,7 @@ body {
 }
 
 .tech-item {
+	height: 170px;
 	background-color: #fff;
 	border-radius: 10px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -299,6 +299,13 @@ body {
 	.tech-item h4 {
 		font-size: 16px;
 	}
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) saturate(100%) invert(54%) sepia(98%) saturate(7335%) hue-rotate(200deg) brightness(120%) contrast(108%);
+    margin-bottom: 10px;
 }
 
 /* Portfolio Styles */

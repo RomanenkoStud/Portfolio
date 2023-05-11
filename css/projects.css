@@ -46,17 +46,6 @@ margin-bottom: 0;
 }
 }
 
-.tech-item {
-	height: 170px;
-}
-
-.icon {
-    width: 30px;
-    height: 30px;
-    filter: brightness(0) saturate(100%) invert(54%) sepia(98%) saturate(7335%) hue-rotate(200deg) brightness(120%) contrast(108%);
-    margin-bottom: 10px;
-}
-
 .live-preview {
     padding: 50px 0;
 }
